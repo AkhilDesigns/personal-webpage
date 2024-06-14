@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://source.unsplash.com/random/1200x800') no-repeat 0 -400px;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #ffffff;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Product Manager</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="showcase">
+        <div class="container">
+            <h1>Creating Meaningful User Experiences</h1>
+            <p>Specializing in UX Design, Testing, and Team Management</p>
+        </div>
+    </div>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Being a Product Manager with experience in a web3-based startup company, I thrive on creating meaningful experiences for users. I specialize in testing, team management, resources allocation, and user stories, working to ensure that products are developed with the end user in mind.</p>
+        <p>I have a strong track record of creating intuitive user interfaces and designing seamless user experiences, all while ensuring that the product aligns with the company's goals and objectives.</p>
+        <p>Whether it's testing new products, collaborating with teams to drive innovation, or working closely with users to understand their needs, I am passionate about creating products that make a difference.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <h3>Fanztar</h3>
+        <p><strong>Product Manager</strong></p>
+        <p>Oct 2022 - Present · 1 yr 9 mos</p>
+        <p>Gurugram, Haryana, India · Remote</p>
+        <p>We are a team which uses Blockchain Technology to create NFTs that enable the user to directly invest in his/her favorite creator and earn with the creator's growth. In my current role, I have led teams to develop and deliver successful sprints, collaborating closely with engineers, designers, and other stakeholders. My experience in resource allocation ensures that all projects are delivered on time and within budget, while my expertise in user stories helps to guide the development process and ensure that the end user's needs are always at the forefront of our thinking.</p>
+        <ul>
+            <li>Ux designing</li>
+            <li>Testing</li>
+            <li>Resource Management</li>
+            <li>Assisting Support to Developers</li>
+            <li>Assuring that the features delivered are efficient and meet the industry standards</li>
+        </ul>
+
+        <h3>IDES Global</h3>
+        <p><strong>Designer</strong></p>
+        <p>Dec 2019 - May 2022 · 2 yrs 6 mos</p>
+        <p>Pune Area, India</p>
+        <p>Was part of the design team into developing a website for providing services such as construction drawings, design, Bill of quantities, architectural drawings, and legal documents directly to the consumer, by eliminating the middlemen.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch with me, please reach out via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Product Manager. All rights reserved.</p>
+    </footer>
+</body>
+</html>
